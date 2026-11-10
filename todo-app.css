@@ -1,0 +1,71 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #eaf2f8;
+  color: #0f2a43;
+}
+
+.app {
+  max-width: 440px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 26px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15,42,67,0.12);
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 2px solid #b8cad8;
+  border-radius: 10px;
+  font: inherit;
+}
+
+button {
+  background: #2bb3a3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e9f0;
+}
+
+li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #9db4c6;
+}
+
+li button {
+  background: #d64545;
+}
+
+#count {
+  color: #6b8296;
+  margin-top: 14px;
+}
